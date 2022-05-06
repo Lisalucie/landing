@@ -1,0 +1,42 @@
+.container .text-center {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color:#ffffff;
+  border: 1px solid rgb(230,230,230);
+  box-shadow: 0 0 5px rgb(230 230 230);
+  color: rgb(121, 121, 121);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container .cards {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.card {
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  min-width: 300px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}

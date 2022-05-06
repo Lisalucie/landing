@@ -1,0 +1,26 @@
+.footer {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/japan-autumn.jpeg);
+  opacity: 1;
+  color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  max-height: 200px;
+
+}
+
+.footer .links {
+  margin: auto;
+  display: block;
+  width:100px;
+  padding-top: 20px;
+}
+
+.footer .follow-us {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
